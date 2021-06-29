@@ -10,11 +10,11 @@ function Policy() {
     return (
         <div className='container' style={{ margin: '50px auto' }}>
             <h2>الشروط والأحكام</h2>
-            <p>  
-            يرجى الضغط على الرابط للحصول على النسخة المحدثة للشروط والأحكام.   
-            <ExternalLink href="https://drive.google.com/file/d/1z-rJlmhmOZF75IAUFa8en2siTQdFL_V-/view?usp=sharing" >انقر للحصول على النسخة المحدثة 
-        </ExternalLink>     
-            
+            <p>
+                يرجى الضغط على الرابط للحصول على النسخة المحدثة للشروط والأحكام.
+                <ExternalLink href="https://drive.google.com/file/d/1z-rJlmhmOZF75IAUFa8en2siTQdFL_V-/view?usp=sharing" >انقر للحصول على النسخة المحدثة
+                </ExternalLink>
+
             </p>
             <p>تمثل جميع الشروط والاحكام والسياسات التي تم نشرها على منصة مردود "عقد رسمي" بين منصة مردود والعملاء المستخدمين و ُوضعت لحماية وحفظ حقوق كل من:</p>
             <ol>
@@ -91,7 +91,7 @@ function Policy() {
                     />
                 ))
             }
-            
+
 
 
 
