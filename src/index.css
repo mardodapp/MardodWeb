@@ -184,7 +184,9 @@ input[type=button], input[type=submit], input[type=reset]{
   background-image: linear-gradient(to  left, rgba(107,101,235,1), rgba(177,128,246,1));
 
 }
-
+.selected{
+  text-decoration: underline;
+}
 @media only screen and (max-width: 600px) {
   .logo{
     width: 50px;

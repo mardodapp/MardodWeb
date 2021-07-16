@@ -1,5 +1,5 @@
 
-import { Link } from "react-router-dom";
+import { Link, NavLink } from "react-router-dom";
 import React from "react";
 
 function Header() {
@@ -28,10 +28,10 @@ function Header() {
                     <header>
                         <div><img src={"./logo.svg"} className='logo' /></div>
                         <div className='navs'>
-                            <Link style={{ padding: "5% 0", color: "white" }} id='left_margin' class="margin" to="/">الصفحة الرئيسية</Link>
-                            <Link style={{ padding: "5% 0", color: "white" }} id='left_margin' class="margin" to="/faq">الأسئلة الشائعة</Link>
-                            <Link style={{ padding: "5% 0", color: "white" }} id='left_margin' class="margin" to="/policy">الشروط والأحكام</Link>
-                            <Link style={{ padding: "5% 0", color: "white" }} id='left_margin' class="margin" to="/contact">تواصل معنا</Link>
+                            <NavLink  style={{ padding: "5% 0", color: "white" }} id='left_margin' class="margin" exact to="/" activeClassName="selected">الصفحة الرئيسية</NavLink>
+                            <NavLink style={{ padding: "5% 0", color: "white" }} id='left_margin' class="margin"  to="/faq" activeClassName="selected">الأسئلة الشائعة</NavLink>
+                            <NavLink style={{ padding: "5% 0", color: "white" }} id='left_margin' class="margin"  to="/policy" activeClassName="selected">الشروط والأحكام</NavLink>
+                            <NavLink style={{ padding: "5% 0", color: "white" }} id='left_margin' class="margin"  to="/contact" activeClassName="selected">تواصل معنا</NavLink>
                         </div>
 
                         {/* OPEN LIST */}
